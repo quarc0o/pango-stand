@@ -31,7 +31,7 @@ function App() {
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="border-0 border-b-2 border-gray-300 focus:border-blue-500 focus:ring-0 p-2 w-full mr-4 transition-colors"
+          className="border-0 border-b-2 border-red-500 focus:border-blue-500 focus:ring-0 p-2 w-full mr-4 transition-colors"
           placeholder="Hva må gjøres?"
         />
         <button
