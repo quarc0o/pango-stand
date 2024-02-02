@@ -48,7 +48,9 @@ function App() {
             key={todo.id}
             className="flex justify-between items-center mb-4 bg-white shadow-md rounded-lg p-4"
           >
-            <span className="text-lg text-gray-700">{todo.text}</span>
+            <span className="text-lg text-gray-700">
+              {todo.text[0].toUpperCase() + todo.text.slice(1)}
+            </span>
             <button
               onClick={() => deleteTodo(todo.id)}
               className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition-colors"
